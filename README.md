@@ -41,13 +41,13 @@ The property owner can:
 
 ---
 
-## Tech Stack
+### **Tech Stack**
 
-* **Language:** Go
-* **Web Framework:** Go standard library (`net/http`)
-* **Templating:** HTML + Go templates
+* **Language:** JavaScript (Node.js)
+* **Web Framework:** Express.js
+* **Templating:** HTML + EJS (or Pug/Handlebars – choose based on your preference)
 * **Database:** PostgreSQL
-* **Authentication:** Custom login with session handling
-* **Notifications:** Email
+* **Authentication:** Custom login with session handling (using `express-session` and `bcrypt` or similar)
+* **Notifications:** Email (using `nodemailer`)
 
 
